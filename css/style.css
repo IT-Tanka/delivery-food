@@ -653,7 +653,10 @@ button {
     .container {
         max-width: 560px;
     }
-
+    .input-address::placeholder{
+        color:transparent;
+        
+    }
     .card-info {
         flex-wrap: wrap;
     }
@@ -725,7 +728,10 @@ button {
         order: 5;
         flex: 1;
     }
-
+    .input-address::placeholder{
+        color:grey;
+        
+    }
     .promo {
         background-image: none;
     }
