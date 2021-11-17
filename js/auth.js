@@ -1,4 +1,5 @@
-const btnAuth=document.querySelector('.button-auth');
+const auth=()=>{
+    const btnAuth=document.querySelector('.button-auth');
 const modalAuth=document.querySelector('.modal-auth');
 const btnCloseAuth=modalAuth.querySelector('.close-auth');
 const btnCart=document.querySelector('.button-cart');
@@ -63,7 +64,6 @@ formlogIn.addEventListener('submit', (e)=>{
         password:inputPassword.value
         };
         localStorage.setItem('user', JSON.stringify(user));
-        spanUserError.style.color='green';
         logIn(user);
         modalAuth.style.display='none';
         }
@@ -83,5 +83,8 @@ if (localStorage.getItem('user')){
     spanUserError.style.top='230px';
     formlogIn.append( spanUserError);
 })();
+};
+auth();
+
 
 
