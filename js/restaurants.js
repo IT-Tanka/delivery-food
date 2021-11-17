@@ -31,7 +31,7 @@ const renderItems=(data)=>{
         card.addEventListener('click',(e)=>{
             e.preventDefault();
             localStorage.setItem('Restaurant', JSON.stringify(element));
-            window.location.href='./restaurant.html';
+            window.location.href='restaurant.html';
         })
         RestaurantCards.append(card);
         });
