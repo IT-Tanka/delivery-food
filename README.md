@@ -1,11 +1,15 @@
 🍱# delivery-food
-## Сайт для сервиса доставки еды на дом
+## Home delivery service website
 
-Учебный проект Glo Academy.
-Выполнила: я.
+training project
 
-Используемые технологии:
--  HTML
+## Completed: I
+
+### Languages used:
+- HTML
 - CSS
-- адаптив
 - JS
+
+### Technologies used:
+- Adaptive layout
+
